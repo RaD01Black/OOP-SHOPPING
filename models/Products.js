@@ -2,6 +2,7 @@ class Products {
     constructor(parent, products) {
         this.parent = parent;
         this.products = products;
+        this.parent.addEventListener("click" ,this);
     }
 
 showProducts() {
@@ -42,6 +43,20 @@ productInfo(data) {
 
     return infoJSX
 }
+
+handleEvent() {
+    const element = event.target;
+
+    if (element.tagName === "BUTTON"){
+        this.addToCart(element.dataset.id)
+    }
 }
+
+addToCart(id) {
+    console.log(id)
+}
+};
+
+
 
 export default Products;
