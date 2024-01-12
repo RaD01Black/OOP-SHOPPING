@@ -42,9 +42,9 @@ class cart {
         const {name, price} = data;
         
         const infoJSX = `
-        <div>
+        <div if="cart-info">
         <h4>${name}</h4>
-        <p>${price}</p>
+        <p>$ ${price}</p>
         </div>
         `;
 
@@ -55,7 +55,7 @@ class cart {
         const {id} = data;
 
         const controlJSX = `
-        <div>
+        <div id="cart-control">
         <div>
         <button data-id=${id}>-</button>
         <span>${qty}</span>
