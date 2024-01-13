@@ -1,4 +1,6 @@
-class Products {
+import Display from "./display.js";
+
+class Products extends Display {
     constructor(parent, products, cart) {
         this.parent = parent;
         this.products = products;
