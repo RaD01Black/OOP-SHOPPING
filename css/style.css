@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
   --color-primary: #584a99;
   --color-secondary: #efe8f6;
@@ -15,17 +17,42 @@
 body {
   max-width: 1400px;
   margin: auto;
+  font-family: "Inter", sans-serif;
 }
 
 header {
-  color: var(--color-primary);
   padding: 30px 0;
 }
+
+header h1 {
+  background: #584A99;
+  background: linear-gradient(to right, #584A99 0%, #2F2752 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800 ;
+}
+
+.line {
+margin-left: 5px;
+  width: 10rem;
+  height: 4px;
+  background-color: #52458e;
+  border-radius: 20rem;
+}
+
+.line2 {
+  margin-left: 5px;
+  margin-top: 5px;
+    width: 7rem;
+    height: 4px;
+    background-color: #52458e;
+    border-radius: 20rem;
+  }
 
 main {
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 #products {
