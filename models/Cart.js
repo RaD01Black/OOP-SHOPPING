@@ -18,7 +18,6 @@ class cart extends Display{
         cardEle.innerHTML = imgEle;
         cardEle.innerHTML += infoEle;
         cardEle.innerHTML += controlEle;
-        console.log(cardEle)
 
         this.parent.appendChild(cardEle);
     }

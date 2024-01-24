@@ -53,6 +53,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #products {
@@ -73,6 +74,7 @@ main {
 }
 
 #products img {
+  padding-top: 5px;
   width: 300px;
   border-radius: 25px;
 }
@@ -93,6 +95,7 @@ main {
 #product-info h3 {
   color: var(--color-primary);
   font-size: 1.3rem;
+  font-weight: 800;
 }
 
 #product-info div {
@@ -133,6 +136,8 @@ main {
   font-size: 1.5rem;
   border-radius: 25px;
   margin-bottom: 30px;
+  font-weight: 800;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #cart-list {
